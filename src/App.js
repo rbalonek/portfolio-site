@@ -1,10 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Home from "./screens/Home/Home";
+import HappySpace from "./screens/Projects/HappySpace/HappySpace";
+import Skills from "./screens/Skills/Skills";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
+      <Home />
+      <Skills />
+      <HappySpace />
     </div>
   );
 }
